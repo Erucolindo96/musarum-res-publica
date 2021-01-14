@@ -1,8 +1,8 @@
-from CountyLoader import CountyLoader
-from InterpellationLoader import InterpellationLoader
-import config
-from SettleLoader import SettleLoader
-from VoivodeshipLoader import VoivodeshipLoader
+from src import config
+from src.InterpellationLoader import InterpellationLoader
+from src.VoivodeshipLoader import VoivodeshipLoader
+from src.CountyLoader import CountyLoader
+from src.SettleLoader import SettleLoader
 
 
 def main_func():
