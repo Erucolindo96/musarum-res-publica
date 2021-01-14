@@ -21,14 +21,14 @@ class InterpellationLoader:
         deputies = None
         try:
             interpellations, deputies = self.__parse_file()
-            logging.info('Interpellations are parser. Interpellations count: %d, deputies count: %d',
+            logging.info('Interpellations parsed. Interpellations count: %d, deputies count: %d',
                          len(interpellations), len(deputies))
         except Exception as e:
             logging.error('Error while parsing interpellation file')
             logging.debug(e, exc_info=True)
 
         try:
-            self.__save_in_database(interpellations, deputies)
+            self.__save_to_database(interpellations, deputies)
             logging.info('Interpellations saved in database')
         except sqlite3.Error as e:
             logging.error('Error occurred while inserting data to database')
@@ -58,7 +58,7 @@ class InterpellationLoader:
                 i += 5
         return interpellations, deputies
 
-    def __save_in_database(self, interpellations, deputies):
+    def __save_to_database(self, interpellations, deputies):
         with sqlite3.connect(self.database_path_) as database:
             cur = database.cursor()
             for deputy_name in deputies:
