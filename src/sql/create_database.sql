@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS deputy_interpellation(
 );
 
 CREATE TABLE IF NOT EXISTS voivodeship(
-   id INTEGER PRIMARY KEY ,
+   id INTEGER PRIMARY KEY,
    name TEXT NOT NULL UNIQUE
 );
 
@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS county(
    id INTEGER,
    voivodeship_id INTEGER,
    name TEXT NOT NULL,
-   FOREIGN KEY(voivodeship_id) REFERENCES voivodeship(id)
+   FOREIGN KEY(voivodeship_id) REFERENCES voivodeship(id),
    PRIMARY KEY(id, voivodeship_id)
 );
 
@@ -47,4 +47,9 @@ CREATE TABLE IF NOT EXISTS interpellation_settles(
    FOREIGN KEY(settle_id) REFERENCES settle(id),
    FOREIGN KEY(interpellation_id) REFERENCES interpellation(id),
    PRIMARY KEY(settle_id, interpellation_id)
+);
+
+CREATE TABLE IF NOT EXISTS election_district(
+   district_number INTEGER PRIMARY KEY,
+   name TEXT NOT NULL UNIQUE
 );
