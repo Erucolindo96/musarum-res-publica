@@ -19,10 +19,14 @@ county = {
 }
 
 settles = {
-    'dir_path': '/home/krzysztof/PycharmProjects/musarum-res-publicae/data/settles',
+    'dir_path': '/Users/michal/STUDIA/TASS/projekt 2/musarum-res-publica/data/settles',
     'files': ['dolnoslaskie.csv', 'krakowskie.csv', 'kujawskie.csv', 'lubelskie.csv', 'lubuskie.csv', 'ludzkie.csv',
               'mazowieckie.csv', 'opolskie.csv', 'podkarpackie.csv', 'podlaskie.csv', 'pomorskie.csv', 'slaskie.csv',
               'swiatokrzyskie.csv', 'vorpommern.csv', 'warminskie.csv', 'wielkopanskie.csv']
+}
+
+election_districts = {
+    'path': '/home/krzysztof/PycharmProjects/musarum-res-publicae/data/okregi_wyborcze.csv'
 }
 
 
