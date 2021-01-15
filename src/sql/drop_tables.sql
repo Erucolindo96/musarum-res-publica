@@ -6,3 +6,5 @@ DROP TABLE IF EXISTS voivodeship;
 DROP TABLE IF EXISTS deputy_interpellation;
 DROP TABLE IF EXISTS interpellation;
 DROP TABLE IF EXISTS deputy;
+
+DROP TABLE IF EXISTS election_district;
