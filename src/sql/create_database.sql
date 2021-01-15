@@ -27,8 +27,10 @@ CREATE TABLE IF NOT EXISTS voivodeship(
 CREATE TABLE IF NOT EXISTS county(
    id INTEGER,
    voivodeship_id INTEGER,
+   district_number INTEGER,
    name TEXT NOT NULL,
    FOREIGN KEY(voivodeship_id) REFERENCES voivodeship(id),
+   FOREIGN KEY(district_number) REFERENCES election_district(district_number),
    PRIMARY KEY(id, voivodeship_id)
 );
 
