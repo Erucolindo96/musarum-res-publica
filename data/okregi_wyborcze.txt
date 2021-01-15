@@ -5,7 +5,7 @@ bydgoski, inowrocławski, mogileński, nakielski, sępoleński, świecki, tuchol
 aleksandrowski, brodnicki, chełmiński, golubsko-dobrzyński, grudziądzki, lipnowski, radziejowski, rypiński, toruński, wąbrzeski, włocławski, Grudziądz, Toruń, Włocławek
 janowski, kraśnicki, lubartowski, lubelski, łęczyński, łukowski, opolski, puławski, rycki, świdnicki, Lublin
 bialski, biłgorajski, chełmski, hrubieszowski, krasnostawski, parczewski, radzyński, tomaszowski, włodawski, zamojski, Biała Podlaska, Chełm, Zamość
-województwo lubuskie
+gorzowski, krośnieński, międzyrzecki, nowosolski, słubicki, strzelecko-drezdenecki, sulęciński, świebodziński, wschowski, zielonogórski, żagański, żarski, Gorzów Wielkopolski, Zielona Góra
 brzeziński, łódzki wschodni, Łódź
 bełchatowski, opoczyński, piotrkowski, radomszczański, rawski, skierniewicki, tomaszowski, Piotrków Trybunalski, Skierniewice
 kutnowski, łaski, łęczycki, łowicki, pabianicki, pajęczański, poddębicki, sieradzki, wieluński, wieruszowski, zduńskowolski, zgierski
@@ -18,10 +18,10 @@ białobrzeski, grójecki, kozienicki, lipski, przysuski, radomski, szydłowiecki
 garwoliński, łosicki, makowski, miński, ostrołęcki, ostrowski, pułtuski, siedlecki, sokołowski, węgrowski, wyszkowski, Ostrołęka, Siedlce
 Warszawa
 grodziski, legionowski, nowodworski, otwocki, piaseczyński, pruszkowski, warszawski zachodni, wołomiński
-województwo opolskie
+brzeski, głubczycki, kędzierzyńsko-kozielski, kluczborski, krapkowicki, namysłowski, nyski, oleski, opolski, prudnicki, strzelecki, Opole
 bieszczadzki, brzozowski, jarosławski, jasielski, krośnieński, leski, lubaczowski, przemyski, przeworski, sanocki, Krosno, Przemyśl
 dębicki, kolbuszowski, leżajski, łańcucki, mielecki, niżański, ropczycko-sędziszowski, rzeszowski, stalowowolski, strzyżowski, tarnobrzeski, Rzeszów, Tarnobrzeg
-województwo podlaskie
+białostocki, sokólski, augustowski, wysokomazowiecki, bielski, łomżyński, grajewski, siemiatycki, zambrowski, hajnowski, moniecki, kolneński, suwalski, sejneński, Białystok, Suwałki, Łomża
 gdański, kwidzyński, malborski, nowodworski, starogardzki, sztumski, tczewski, Gdańsk, Sopot
 bytowski, chojnicki, człuchowski, kartuski, kościerski, lęborski, pucki, słupski, wejherowski, Gdynia, Słupsk
 bielski, cieszyński, pszczyński, żywiecki, Bielsko-Biała
@@ -30,7 +30,7 @@ gliwicki, tarnogórski, Bytom, Gliwice, Zabrze
 mikołowski, raciborski, rybnicki, wodzisławski, Jastrzębie-Zdrój, Rybnik, Żory
 bieruńsko-lędziński, Chorzów, Katowice, Mysłowice, Piekary Śląskie, Ruda Śląska, Siemianowice Śląskie, Świętochłowice, Tychy
 będziński, zawierciański, Dąbrowa Górnicza, Jaworzno, Sosnowiec
-województwo świętokrzyskie
+buski, jędrzejowski, kazimierski, kielecki, konecki, opatowski, ostrowiecki, pińczowski, sandomierski, skarżyski, starachowicki, staszowski, włoszczowski, Kielce
 bartoszycki, braniewski, działdowski, elbląski, iławski, lidzbarski, nowomiejski, ostródzki, Elbląg
 ełcki, giżycki, gołdapski, kętrzyński, mrągowski, nidzicki, olecki, olsztyński, piski, szczycieński, węgorzewski, Ełk, Olsztyn
 gostyński, jarociński, kaliski, kępiński, kościański, krotoszyński, leszczyński, ostrowski, ostrzeszowski, pleszewski, rawicki, Kalisz, Leszno
