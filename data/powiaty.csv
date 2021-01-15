@@ -1,0 +1,381 @@
+WOJ;POW;GMI;RODZ;NAZWA;NAZWA_DOD;STAN_NA
+4;1;;;aleksandrowski;powiat;2021-01-01
+20;1;;;augustowski;powiat;2021-01-01
+28;1;;;bartoszycki;powiat;2021-01-01
+10;1;;;bełchatowski;powiat;2021-01-01
+24;1;;;będziński;powiat;2021-01-01
+6;1;;;bialski;powiat;2021-01-01
+6;61;;;Biała Podlaska;miasto na prawach powiatu;2021-01-01
+14;1;;;białobrzeski;powiat;2021-01-01
+32;1;;;białogardzki;powiat;2021-01-01
+20;2;;;białostocki;powiat;2021-01-01
+20;61;;;Białystok;miasto na prawach powiatu;2021-01-01
+20;3;;;bielski;powiat;2021-01-01
+24;2;;;bielski;powiat;2021-01-01
+24;61;;;Bielsko-Biała;miasto na prawach powiatu;2021-01-01
+24;14;;;bieruńsko-lędziński;powiat;2021-01-01
+18;1;;;bieszczadzki;powiat;2021-01-01
+6;2;;;biłgorajski;powiat;2021-01-01
+12;1;;;bocheński;powiat;2021-01-01
+2;1;;;bolesławiecki;powiat;2021-01-01
+28;2;;;braniewski;powiat;2021-01-01
+4;2;;;brodnicki;powiat;2021-01-01
+12;2;;;brzeski;powiat;2021-01-01
+16;1;;;brzeski;powiat;2021-01-01
+10;21;;;brzeziński;powiat;2021-01-01
+18;2;;;brzozowski;powiat;2021-01-01
+26;1;;;buski;powiat;2021-01-01
+4;3;;;bydgoski;powiat;2021-01-01
+4;61;;;Bydgoszcz;miasto na prawach powiatu;2021-01-01
+24;62;;;Bytom;miasto na prawach powiatu;2021-01-01
+22;1;;;bytowski;powiat;2021-01-01
+6;62;;;Chełm;miasto na prawach powiatu;2021-01-01
+4;4;;;chełmiński;powiat;2021-01-01
+6;3;;;chełmski;powiat;2021-01-01
+30;1;;;chodzieski;powiat;2021-01-01
+22;2;;;chojnicki;powiat;2021-01-01
+24;63;;;Chorzów;miasto na prawach powiatu;2021-01-01
+32;2;;;choszczeński;powiat;2021-01-01
+12;3;;;chrzanowski;powiat;2021-01-01
+14;2;;;ciechanowski;powiat;2021-01-01
+24;3;;;cieszyński;powiat;2021-01-01
+30;2;;;czarnkowsko-trzcianecki;powiat;2021-01-01
+24;64;;;Częstochowa;miasto na prawach powiatu;2021-01-01
+24;4;;;częstochowski;powiat;2021-01-01
+22;3;;;człuchowski;powiat;2021-01-01
+24;65;;;Dąbrowa Górnicza;miasto na prawach powiatu;2021-01-01
+12;4;;;dąbrowski;powiat;2021-01-01
+18;3;;;dębicki;powiat;2021-01-01
+32;3;;;drawski;powiat;2021-01-01
+28;3;;;działdowski;powiat;2021-01-01
+2;2;;;dzierżoniowski;powiat;2021-01-01
+28;61;;;Elbląg;miasto na prawach powiatu;2021-01-01
+28;4;;;elbląski;powiat;2021-01-01
+28;5;;;ełcki;powiat;2021-01-01
+14;3;;;garwoliński;powiat;2021-01-01
+22;61;;;Gdańsk;miasto na prawach powiatu;2021-01-01
+22;4;;;gdański;powiat;2021-01-01
+22;62;;;Gdynia;miasto na prawach powiatu;2021-01-01
+28;6;;;giżycki;powiat;2021-01-01
+24;66;;;Gliwice;miasto na prawach powiatu;2021-01-01
+24;5;;;gliwicki;powiat;2021-01-01
+2;3;;;głogowski;powiat;2021-01-01
+16;2;;;głubczycki;powiat;2021-01-01
+30;3;;;gnieźnieński;powiat;2021-01-01
+32;4;;;goleniowski;powiat;2021-01-01
+4;5;;;golubsko-dobrzyński;powiat;2021-01-01
+28;18;;;gołdapski;powiat;2021-01-01
+12;5;;;gorlicki;powiat;2021-01-01
+8;1;;;gorzowski;powiat;2021-01-01
+8;61;;;Gorzów Wielkopolski;miasto na prawach powiatu;2021-01-01
+14;4;;;gostyniński;powiat;2021-01-01
+30;4;;;gostyński;powiat;2021-01-01
+2;4;;;górowski;powiat;2021-01-01
+20;4;;;grajewski;powiat;2021-01-01
+14;5;;;grodziski;powiat;2021-01-01
+30;5;;;grodziski;powiat;2021-01-01
+14;6;;;grójecki;powiat;2021-01-01
+4;62;;;Grudziądz;miasto na prawach powiatu;2021-01-01
+4;6;;;grudziądzki;powiat;2021-01-01
+32;5;;;gryficki;powiat;2021-01-01
+32;6;;;gryfiński;powiat;2021-01-01
+20;5;;;hajnowski;powiat;2021-01-01
+6;4;;;hrubieszowski;powiat;2021-01-01
+28;7;;;iławski;powiat;2021-01-01
+4;7;;;inowrocławski;powiat;2021-01-01
+6;5;;;janowski;powiat;2021-01-01
+30;6;;;jarociński;powiat;2021-01-01
+18;4;;;jarosławski;powiat;2021-01-01
+18;5;;;jasielski;powiat;2021-01-01
+24;67;;;Jastrzębie-Zdrój;miasto na prawach powiatu;2021-01-01
+2;5;;;jaworski;powiat;2021-01-01
+24;68;;;Jaworzno;miasto na prawach powiatu;2021-01-01
+2;61;;;Jelenia Góra;miasto na prawach powiatu;2021-01-01
+26;2;;;jędrzejowski;powiat;2021-01-01
+30;7;;;kaliski;powiat;2021-01-01
+30;61;;;Kalisz;miasto na prawach powiatu;2021-01-01
+2;7;;;kamiennogórski;powiat;2021-01-01
+32;7;;;kamieński;powiat;2021-01-01
+2;6;;;karkonoski;powiat;2021-01-01
+22;5;;;kartuski;powiat;2021-01-01
+24;69;;;Katowice;miasto na prawach powiatu;2021-01-01
+26;3;;;kazimierski;powiat;2021-01-01
+16;3;;;kędzierzyńsko-kozielski;powiat;2021-01-01
+30;8;;;kępiński;powiat;2021-01-01
+28;8;;;kętrzyński;powiat;2021-01-01
+26;61;;;Kielce;miasto na prawach powiatu;2021-01-01
+26;4;;;kielecki;powiat;2021-01-01
+16;4;;;kluczborski;powiat;2021-01-01
+24;6;;;kłobucki;powiat;2021-01-01
+2;8;;;kłodzki;powiat;2021-01-01
+18;6;;;kolbuszowski;powiat;2021-01-01
+20;6;;;kolneński;powiat;2021-01-01
+30;9;;;kolski;powiat;2021-01-01
+32;8;;;kołobrzeski;powiat;2021-01-01
+26;5;;;konecki;powiat;2021-01-01
+30;62;;;Konin;miasto na prawach powiatu;2021-01-01
+30;10;;;koniński;powiat;2021-01-01
+32;61;;;Koszalin;miasto na prawach powiatu;2021-01-01
+32;9;;;koszaliński;powiat;2021-01-01
+30;11;;;kościański;powiat;2021-01-01
+22;6;;;kościerski;powiat;2021-01-01
+14;7;;;kozienicki;powiat;2021-01-01
+12;6;;;krakowski;powiat;2021-01-01
+12;61;;;Kraków;miasto na prawach powiatu;2021-01-01
+16;5;;;krapkowicki;powiat;2021-01-01
+6;6;;;krasnostawski;powiat;2021-01-01
+6;7;;;kraśnicki;powiat;2021-01-01
+18;61;;;Krosno;miasto na prawach powiatu;2021-01-01
+8;2;;;krośnieński;powiat;2021-01-01
+18;7;;;krośnieński;powiat;2021-01-01
+30;12;;;krotoszyński;powiat;2021-01-01
+10;2;;;kutnowski;powiat;2021-01-01
+22;7;;;kwidzyński;powiat;2021-01-01
+14;8;;;legionowski;powiat;2021-01-01
+2;62;;;Legnica;miasto na prawach powiatu;2021-01-01
+2;9;;;legnicki;powiat;2021-01-01
+18;21;;;leski;powiat;2021-01-01
+30;13;;;leszczyński;powiat;2021-01-01
+30;63;;;Leszno;miasto na prawach powiatu;2021-01-01
+18;8;;;leżajski;powiat;2021-01-01
+22;8;;;lęborski;powiat;2021-01-01
+28;9;;;lidzbarski;powiat;2021-01-01
+12;7;;;limanowski;powiat;2021-01-01
+4;8;;;lipnowski;powiat;2021-01-01
+14;9;;;lipski;powiat;2021-01-01
+18;9;;;lubaczowski;powiat;2021-01-01
+2;10;;;lubański;powiat;2021-01-01
+6;8;;;lubartowski;powiat;2021-01-01
+6;9;;;lubelski;powiat;2021-01-01
+2;11;;;lubiński;powiat;2021-01-01
+6;63;;;Lublin;miasto na prawach powiatu;2021-01-01
+24;7;;;lubliniecki;powiat;2021-01-01
+2;12;;;lwówecki;powiat;2021-01-01
+18;10;;;łańcucki;powiat;2021-01-01
+10;3;;;łaski;powiat;2021-01-01
+10;4;;;łęczycki;powiat;2021-01-01
+6;10;;;łęczyński;powiat;2021-01-01
+32;18;;;łobeski;powiat;2021-01-01
+20;62;;;Łomża;miasto na prawach powiatu;2021-01-01
+20;7;;;łomżyński;powiat;2021-01-01
+14;10;;;łosicki;powiat;2021-01-01
+10;5;;;łowicki;powiat;2021-01-01
+10;6;;;łódzki wschodni;powiat;2021-01-01
+10;61;;;Łódź;miasto na prawach powiatu;2021-01-01
+6;11;;;łukowski;powiat;2021-01-01
+14;11;;;makowski;powiat;2021-01-01
+22;9;;;malborski;powiat;2021-01-01
+12;8;;;miechowski;powiat;2021-01-01
+18;11;;;mielecki;powiat;2021-01-01
+30;14;;;międzychodzki;powiat;2021-01-01
+8;3;;;międzyrzecki;powiat;2021-01-01
+24;8;;;mikołowski;powiat;2021-01-01
+2;13;;;milicki;powiat;2021-01-01
+14;12;;;miński;powiat;2021-01-01
+14;13;;;mławski;powiat;2021-01-01
+4;9;;;mogileński;powiat;2021-01-01
+20;8;;;moniecki;powiat;2021-01-01
+28;10;;;mrągowski;powiat;2021-01-01
+24;70;;;Mysłowice;miasto na prawach powiatu;2021-01-01
+24;9;;;myszkowski;powiat;2021-01-01
+12;9;;;myślenicki;powiat;2021-01-01
+32;10;;;myśliborski;powiat;2021-01-01
+4;10;;;nakielski;powiat;2021-01-01
+16;6;;;namysłowski;powiat;2021-01-01
+28;11;;;nidzicki;powiat;2021-01-01
+18;12;;;niżański;powiat;2021-01-01
+14;14;;;nowodworski;powiat;2021-01-01
+22;10;;;nowodworski;powiat;2021-01-01
+28;12;;;nowomiejski;powiat;2021-01-01
+12;10;;;nowosądecki;powiat;2021-01-01
+8;4;;;nowosolski;powiat;2021-01-01
+12;11;;;nowotarski;powiat;2021-01-01
+30;15;;;nowotomyski;powiat;2021-01-01
+12;62;;;Nowy Sącz;miasto na prawach powiatu;2021-01-01
+16;7;;;nyski;powiat;2021-01-01
+30;16;;;obornicki;powiat;2021-01-01
+28;13;;;olecki;powiat;2021-01-01
+16;8;;;oleski;powiat;2021-01-01
+2;14;;;oleśnicki;powiat;2021-01-01
+12;12;;;olkuski;powiat;2021-01-01
+28;62;;;Olsztyn;miasto na prawach powiatu;2021-01-01
+28;14;;;olsztyński;powiat;2021-01-01
+2;15;;;oławski;powiat;2021-01-01
+26;6;;;opatowski;powiat;2021-01-01
+10;7;;;opoczyński;powiat;2021-01-01
+16;61;;;Opole;miasto na prawach powiatu;2021-01-01
+6;12;;;opolski;powiat;2021-01-01
+16;9;;;opolski;powiat;2021-01-01
+14;15;;;ostrołęcki;powiat;2021-01-01
+14;61;;;Ostrołęka;miasto na prawach powiatu;2021-01-01
+26;7;;;ostrowiecki;powiat;2021-01-01
+14;16;;;ostrowski;powiat;2021-01-01
+30;17;;;ostrowski;powiat;2021-01-01
+28;15;;;ostródzki;powiat;2021-01-01
+30;18;;;ostrzeszowski;powiat;2021-01-01
+12;13;;;oświęcimski;powiat;2021-01-01
+14;17;;;otwocki;powiat;2021-01-01
+10;8;;;pabianicki;powiat;2021-01-01
+10;9;;;pajęczański;powiat;2021-01-01
+6;13;;;parczewski;powiat;2021-01-01
+14;18;;;piaseczyński;powiat;2021-01-01
+24;71;;;Piekary Śląskie;miasto na prawach powiatu;2021-01-01
+30;19;;;pilski;powiat;2021-01-01
+26;8;;;pińczowski;powiat;2021-01-01
+10;10;;;piotrkowski;powiat;2021-01-01
+10;62;;;Piotrków Trybunalski;miasto na prawach powiatu;2021-01-01
+28;16;;;piski;powiat;2021-01-01
+30;20;;;pleszewski;powiat;2021-01-01
+14;62;;;Płock;miasto na prawach powiatu;2021-01-01
+14;19;;;płocki;powiat;2021-01-01
+14;20;;;płoński;powiat;2021-01-01
+10;11;;;poddębicki;powiat;2021-01-01
+32;11;;;policki;powiat;2021-01-01
+2;16;;;polkowicki;powiat;2021-01-01
+30;64;;;Poznań;miasto na prawach powiatu;2021-01-01
+30;21;;;poznański;powiat;2021-01-01
+12;14;;;proszowicki;powiat;2021-01-01
+16;10;;;prudnicki;powiat;2021-01-01
+14;21;;;pruszkowski;powiat;2021-01-01
+14;22;;;przasnyski;powiat;2021-01-01
+18;13;;;przemyski;powiat;2021-01-01
+18;62;;;Przemyśl;miasto na prawach powiatu;2021-01-01
+18;14;;;przeworski;powiat;2021-01-01
+14;23;;;przysuski;powiat;2021-01-01
+24;10;;;pszczyński;powiat;2021-01-01
+22;11;;;pucki;powiat;2021-01-01
+6;14;;;puławski;powiat;2021-01-01
+14;24;;;pułtuski;powiat;2021-01-01
+32;12;;;pyrzycki;powiat;2021-01-01
+24;11;;;raciborski;powiat;2021-01-01
+14;63;;;Radom;miasto na prawach powiatu;2021-01-01
+14;25;;;radomski;powiat;2021-01-01
+10;12;;;radomszczański;powiat;2021-01-01
+4;11;;;radziejowski;powiat;2021-01-01
+6;15;;;radzyński;powiat;2021-01-01
+30;22;;;rawicki;powiat;2021-01-01
+10;13;;;rawski;powiat;2021-01-01
+18;15;;;ropczycko-sędziszowski;powiat;2021-01-01
+24;72;;;Ruda Śląska;miasto na prawach powiatu;2021-01-01
+24;12;;;rybnicki;powiat;2021-01-01
+24;73;;;Rybnik;miasto na prawach powiatu;2021-01-01
+6;16;;;rycki;powiat;2021-01-01
+4;12;;;rypiński;powiat;2021-01-01
+18;16;;;rzeszowski;powiat;2021-01-01
+18;63;;;Rzeszów;miasto na prawach powiatu;2021-01-01
+26;9;;;sandomierski;powiat;2021-01-01
+18;17;;;sanocki;powiat;2021-01-01
+20;9;;;sejneński;powiat;2021-01-01
+4;13;;;sępoleński;powiat;2021-01-01
+14;64;;;Siedlce;miasto na prawach powiatu;2021-01-01
+14;26;;;siedlecki;powiat;2021-01-01
+24;74;;;Siemianowice Śląskie;miasto na prawach powiatu;2021-01-01
+20;10;;;siemiatycki;powiat;2021-01-01
+10;14;;;sieradzki;powiat;2021-01-01
+14;27;;;sierpecki;powiat;2021-01-01
+26;10;;;skarżyski;powiat;2021-01-01
+10;63;;;Skierniewice;miasto na prawach powiatu;2021-01-01
+10;15;;;skierniewicki;powiat;2021-01-01
+32;13;;;sławieński;powiat;2021-01-01
+8;5;;;słubicki;powiat;2021-01-01
+30;23;;;słupecki;powiat;2021-01-01
+22;63;;;Słupsk;miasto na prawach powiatu;2021-01-01
+22;12;;;słupski;powiat;2021-01-01
+14;28;;;sochaczewski;powiat;2021-01-01
+14;29;;;sokołowski;powiat;2021-01-01
+20;11;;;sokólski;powiat;2021-01-01
+22;64;;;Sopot;miasto na prawach powiatu;2021-01-01
+24;75;;;Sosnowiec;miasto na prawach powiatu;2021-01-01
+18;18;;;stalowowolski;powiat;2021-01-01
+26;11;;;starachowicki;powiat;2021-01-01
+32;14;;;stargardzki;powiat;2021-01-01
+22;13;;;starogardzki;powiat;2021-01-01
+26;12;;;staszowski;powiat;2021-01-01
+16;11;;;strzelecki;powiat;2021-01-01
+8;6;;;strzelecko-drezdenecki;powiat;2021-01-01
+2;17;;;strzeliński;powiat;2021-01-01
+18;19;;;strzyżowski;powiat;2021-01-01
+8;7;;;sulęciński;powiat;2021-01-01
+12;15;;;suski;powiat;2021-01-01
+20;12;;;suwalski;powiat;2021-01-01
+20;63;;;Suwałki;miasto na prawach powiatu;2021-01-01
+30;24;;;szamotulski;powiat;2021-01-01
+32;62;;;Szczecin;miasto na prawach powiatu;2021-01-01
+32;15;;;szczecinecki;powiat;2021-01-01
+28;17;;;szczycieński;powiat;2021-01-01
+22;16;;;sztumski;powiat;2021-01-01
+14;30;;;szydłowiecki;powiat;2021-01-01
+2;18;;;średzki;powiat;2021-01-01
+30;25;;;średzki;powiat;2021-01-01
+30;26;;;śremski;powiat;2021-01-01
+2;19;;;świdnicki;powiat;2021-01-01
+6;17;;;świdnicki;powiat;2021-01-01
+32;16;;;świdwiński;powiat;2021-01-01
+8;8;;;świebodziński;powiat;2021-01-01
+4;14;;;świecki;powiat;2021-01-01
+24;76;;;Świętochłowice;miasto na prawach powiatu;2021-01-01
+32;63;;;Świnoujście;miasto na prawach powiatu;2021-01-01
+18;64;;;Tarnobrzeg;miasto na prawach powiatu;2021-01-01
+18;20;;;tarnobrzeski;powiat;2021-01-01
+24;13;;;tarnogórski;powiat;2021-01-01
+12;16;;;tarnowski;powiat;2021-01-01
+12;63;;;Tarnów;miasto na prawach powiatu;2021-01-01
+12;17;;;tatrzański;powiat;2021-01-01
+22;14;;;tczewski;powiat;2021-01-01
+6;18;;;tomaszowski;powiat;2021-01-01
+10;16;;;tomaszowski;powiat;2021-01-01
+4;63;;;Toruń;miasto na prawach powiatu;2021-01-01
+4;15;;;toruński;powiat;2021-01-01
+2;20;;;trzebnicki;powiat;2021-01-01
+4;16;;;tucholski;powiat;2021-01-01
+30;27;;;turecki;powiat;2021-01-01
+24;77;;;Tychy;miasto na prawach powiatu;2021-01-01
+12;18;;;wadowicki;powiat;2021-01-01
+2;65;;;Wałbrzych;miasto na prawach powiatu;2021-01-01
+2;21;;;wałbrzyski;powiat;2021-01-01
+32;17;;;wałecki;powiat;2021-01-01
+14;65;;;Warszawa;miasto stołeczne, na prawach powiatu;2021-01-01
+14;32;;;warszawski zachodni;powiat;2021-01-01
+4;17;;;wąbrzeski;powiat;2021-01-01
+30;28;;;wągrowiecki;powiat;2021-01-01
+22;15;;;wejherowski;powiat;2021-01-01
+28;19;;;węgorzewski;powiat;2021-01-01
+14;33;;;węgrowski;powiat;2021-01-01
+12;19;;;wielicki;powiat;2021-01-01
+10;17;;;wieluński;powiat;2021-01-01
+10;18;;;wieruszowski;powiat;2021-01-01
+4;64;;;Włocławek;miasto na prawach powiatu;2021-01-01
+4;18;;;włocławski;powiat;2021-01-01
+6;19;;;włodawski;powiat;2021-01-01
+26;13;;;włoszczowski;powiat;2021-01-01
+24;15;;;wodzisławski;powiat;2021-01-01
+30;29;;;wolsztyński;powiat;2021-01-01
+14;34;;;wołomiński;powiat;2021-01-01
+2;22;;;wołowski;powiat;2021-01-01
+2;64;;;Wrocław;miasto na prawach powiatu;2021-01-01
+2;23;;;wrocławski;powiat;2021-01-01
+30;30;;;wrzesiński;powiat;2021-01-01
+8;12;;;wschowski;powiat;2021-01-01
+20;13;;;wysokomazowiecki;powiat;2021-01-01
+14;35;;;wyszkowski;powiat;2021-01-01
+24;78;;;Zabrze;miasto na prawach powiatu;2021-01-01
+20;14;;;zambrowski;powiat;2021-01-01
+6;20;;;zamojski;powiat;2021-01-01
+6;64;;;Zamość;miasto na prawach powiatu;2021-01-01
+24;16;;;zawierciański;powiat;2021-01-01
+2;24;;;ząbkowicki;powiat;2021-01-01
+10;19;;;zduńskowolski;powiat;2021-01-01
+10;20;;;zgierski;powiat;2021-01-01
+2;25;;;zgorzelecki;powiat;2021-01-01
+8;62;;;Zielona Góra;miasto na prawach powiatu;2021-01-01
+8;9;;;zielonogórski;powiat;2021-01-01
+2;26;;;złotoryjski;powiat;2021-01-01
+30;31;;;złotowski;powiat;2021-01-01
+14;36;;;zwoleński;powiat;2021-01-01
+8;10;;;żagański;powiat;2021-01-01
+8;11;;;żarski;powiat;2021-01-01
+4;19;;;żniński;powiat;2021-01-01
+24;79;;;Żory;miasto na prawach powiatu;2021-01-01
+14;37;;;żuromiński;powiat;2021-01-01
+14;38;;;żyrardowski;powiat;2021-01-01
+24;17;;;żywiecki;powiat;2021-01-01
