@@ -1,4 +1,4 @@
-bolesławiecki, głogowski, jaworski, jeleniogórski, kamiennogórski, legnicki, lubański, lubiński, lwówecki, polkowicki, zgorzelecki, złotoryjski, Jelenia Góra, Legnica
+bolesławiecki, głogowski, jaworski, karkonoski, kamiennogórski, legnicki, lubański, lubiński, lwówecki, polkowicki, zgorzelecki, złotoryjski, Jelenia Góra, Legnica
 dzierżoniowski, kłodzki, świdnicki, wałbrzyski, ząbkowicki, Wałbrzych
 górowski, milicki, oleśnicki, oławski, strzeliński, średzki, trzebnicki, wołowski, wrocławski, Wrocław
 bydgoski, inowrocławski, mogileński, nakielski, sępoleński, świecki, tucholski, żniński, Bydgoszcz
@@ -32,7 +32,7 @@ bieruńsko-lędziński, Chorzów, Katowice, Mysłowice, Piekary Śląskie, Ruda 
 będziński, zawierciański, Dąbrowa Górnicza, Jaworzno, Sosnowiec
 buski, jędrzejowski, kazimierski, kielecki, konecki, opatowski, ostrowiecki, pińczowski, sandomierski, skarżyski, starachowicki, staszowski, włoszczowski, Kielce
 bartoszycki, braniewski, działdowski, elbląski, iławski, lidzbarski, nowomiejski, ostródzki, Elbląg
-ełcki, giżycki, gołdapski, kętrzyński, mrągowski, nidzicki, olecki, olsztyński, piski, szczycieński, węgorzewski, Ełk, Olsztyn
+ełcki, giżycki, gołdapski, kętrzyński, mrągowski, nidzicki, olecki, olsztyński, piski, szczycieński, węgorzewski, Olsztyn
 gostyński, jarociński, kaliski, kępiński, kościański, krotoszyński, leszczyński, ostrowski, ostrzeszowski, pleszewski, rawicki, Kalisz, Leszno
 gnieźnieński, kolski, koniński, słupecki, średzki, śremski, turecki, wrzesiński, Konin
 chodzieski, czarnkowsko-trzcianecki, grodziski, międzychodzki, nowotomyski, obornicki, pilski, szamotulski, wągrowiecki, wolsztyński, złotowski
