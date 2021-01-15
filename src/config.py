@@ -18,6 +18,13 @@ county = {
     'path': '/home/krzysztof/PycharmProjects/musarum-res-publicae/data/powiaty.csv'
 }
 
+settles = {
+    'dir_path': '/home/krzysztof/PycharmProjects/musarum-res-publicae/data/settles',
+    'files': ['dolnoslaskie.csv', 'krakowskie.csv', 'kujawskie.csv', 'lubelskie.csv', 'lubuskie.csv', 'ludzkie.csv',
+              'mazowieckie.csv', 'opolskie.csv', 'podkarpackie.csv', 'podlaskie.csv', 'pomorskie.csv', 'slaskie.csv',
+              'swiatokrzyskie.csv', 'vorpommern.csv', 'warminskie.csv', 'wielkopanskie.csv']
+}
+
 
 def create_config():
     logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logs['level'])

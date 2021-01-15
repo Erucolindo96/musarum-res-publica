@@ -35,8 +35,10 @@ CREATE TABLE IF NOT EXISTS county(
 CREATE TABLE IF NOT EXISTS settle(
    id INTEGER PRIMARY KEY AUTOINCREMENT,
    county_id INTEGER,
+   voivodeship_id INTEGER,
    name TEXT NOT NULL,
-   FOREIGN KEY(county_id) REFERENCES county(id)
+   FOREIGN KEY(county_id, voivodeship_id) REFERENCES county(id, voivodeship_id)
+   UNIQUE(county_id, voivodeship_id, name)
 );
 
 CREATE TABLE IF NOT EXISTS interpellation_settles(
