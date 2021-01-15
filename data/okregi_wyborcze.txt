@@ -1,0 +1,41 @@
+bolesławiecki, głogowski, jaworski, jeleniogórski, kamiennogórski, legnicki, lubański, lubiński, lwówecki, polkowicki, zgorzelecki, złotoryjski, Jelenia Góra, Legnica
+dzierżoniowski, kłodzki, świdnicki, wałbrzyski, ząbkowicki, Wałbrzych
+górowski, milicki, oleśnicki, oławski, strzeliński, średzki, trzebnicki, wołowski, wrocławski, Wrocław
+bydgoski, inowrocławski, mogileński, nakielski, sępoleński, świecki, tucholski, żniński, Bydgoszcz
+aleksandrowski, brodnicki, chełmiński, golubsko-dobrzyński, grudziądzki, lipnowski, radziejowski, rypiński, toruński, wąbrzeski, włocławski, Grudziądz, Toruń, Włocławek
+janowski, kraśnicki, lubartowski, lubelski, łęczyński, łukowski, opolski, puławski, rycki, świdnicki, Lublin
+bialski, biłgorajski, chełmski, hrubieszowski, krasnostawski, parczewski, radzyński, tomaszowski, włodawski, zamojski, Biała Podlaska, Chełm, Zamość
+województwo lubuskie
+brzeziński, łódzki wschodni, Łódź
+bełchatowski, opoczyński, piotrkowski, radomszczański, rawski, skierniewicki, tomaszowski, Piotrków Trybunalski, Skierniewice
+kutnowski, łaski, łęczycki, łowicki, pabianicki, pajęczański, poddębicki, sieradzki, wieluński, wieruszowski, zduńskowolski, zgierski
+chrzanowski, myślenicki, oświęcimski, suski, wadowicki
+krakowski, miechowski, olkuski, Kraków
+gorlicki, limanowski, nowosądecki, nowotarski, tatrzański, Nowy Sącz
+bocheński, brzeski, dąbrowski, proszowicki, tarnowski, wielicki, Tarnów
+ciechanowski, gostyniński, mławski, płocki, płoński, przasnyski, sierpecki, sochaczewski, żuromiński, żyrardowski, Płock
+białobrzeski, grójecki, kozienicki, lipski, przysuski, radomski, szydłowiecki, zwoleński, Radom
+garwoliński, łosicki, makowski, miński, ostrołęcki, ostrowski, pułtuski, siedlecki, sokołowski, węgrowski, wyszkowski, Ostrołęka, Siedlce
+Warszawa
+grodziski, legionowski, nowodworski, otwocki, piaseczyński, pruszkowski, warszawski zachodni, wołomiński
+województwo opolskie
+bieszczadzki, brzozowski, jarosławski, jasielski, krośnieński, leski, lubaczowski, przemyski, przeworski, sanocki, Krosno, Przemyśl
+dębicki, kolbuszowski, leżajski, łańcucki, mielecki, niżański, ropczycko-sędziszowski, rzeszowski, stalowowolski, strzyżowski, tarnobrzeski, Rzeszów, Tarnobrzeg
+województwo podlaskie
+gdański, kwidzyński, malborski, nowodworski, starogardzki, sztumski, tczewski, Gdańsk, Sopot
+bytowski, chojnicki, człuchowski, kartuski, kościerski, lęborski, pucki, słupski, wejherowski, Gdynia, Słupsk
+bielski, cieszyński, pszczyński, żywiecki, Bielsko-Biała
+częstochowski, kłobucki, lubliniecki, myszkowski, Częstochowa
+gliwicki, tarnogórski, Bytom, Gliwice, Zabrze
+mikołowski, raciborski, rybnicki, wodzisławski, Jastrzębie-Zdrój, Rybnik, Żory
+bieruńsko-lędziński, Chorzów, Katowice, Mysłowice, Piekary Śląskie, Ruda Śląska, Siemianowice Śląskie, Świętochłowice, Tychy
+będziński, zawierciański, Dąbrowa Górnicza, Jaworzno, Sosnowiec
+województwo świętokrzyskie
+bartoszycki, braniewski, działdowski, elbląski, iławski, lidzbarski, nowomiejski, ostródzki, Elbląg
+ełcki, giżycki, gołdapski, kętrzyński, mrągowski, nidzicki, olecki, olsztyński, piski, szczycieński, węgorzewski, Ełk, Olsztyn
+gostyński, jarociński, kaliski, kępiński, kościański, krotoszyński, leszczyński, ostrowski, ostrzeszowski, pleszewski, rawicki, Kalisz, Leszno
+gnieźnieński, kolski, koniński, słupecki, średzki, śremski, turecki, wrzesiński, Konin
+chodzieski, czarnkowsko-trzcianecki, grodziski, międzychodzki, nowotomyski, obornicki, pilski, szamotulski, wągrowiecki, wolsztyński, złotowski
+poznański, Poznań
+białogardzki, choszczeński, drawski, kołobrzeski, koszaliński, sławieński, szczecinecki, świdwiński, wałecki, Koszalin
+goleniowski, gryficki, gryfiński, kamieński, łobeski, myśliborski, policki, pyrzycki, stargardzki, Szczecin, Świnoujście
