@@ -51,5 +51,5 @@ CREATE TABLE IF NOT EXISTS interpellation_settles(
 
 CREATE TABLE IF NOT EXISTS election_district(
    district_number INTEGER PRIMARY KEY,
-   name TEXT NOT NULL UNIQUE
+   name TEXT NOT NULL
 );
