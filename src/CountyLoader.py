@@ -13,9 +13,10 @@ class RawCounty:
 
 class CountyLoader:
 
-    def __init__(self, county_file_path, database_file):
+    def __init__(self, county_file_path, database_file, county_to_district):
         self.county_file_path_ = county_file_path
         self.database_file_ = database_file
+        self.county_to_district_ = county_to_district
 
     def load_to_database(self):
         county_list = None
@@ -49,6 +50,7 @@ class CountyLoader:
         with sqlite3.connect(self.database_file_) as database:
             cur = database.cursor()
             for county in county_list:
-                cur.execute('INSERT INTO county(id, voivodeship_id, name) VALUES(?,?,?)',
-                            (county.id_, county.voivodeship_id, county.name_))
+                district_number = self.county_to_district_[county.name_]
+                cur.execute('INSERT INTO county(id, voivodeship_id, district_number, name) VALUES(?,?,?,?)',
+                            (county.id_, county.voivodeship_id, district_number, county.name_))
             database.commit()
