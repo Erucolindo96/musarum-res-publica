@@ -22,7 +22,7 @@ class CountyLoader:
         county_list = None
         try:
             county_list = self.__parse_counties()
-            logging.info('Counties are parser. Counties count: %d',
+            logging.info('Counties parsed. Counties count: %d',
                          len(county_list))
         except Exception as e:
             logging.error('Error while parsing county file')

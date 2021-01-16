@@ -19,7 +19,7 @@ class VoivodeshipLoader:
         voivodeship_list = None
         try:
             voivodeship_list = self.__parse_voivodeships()
-            logging.info('Voivodeships are parser. Voivodeships count: %d',
+            logging.info('Voivodeships parsed. Voivodeships count: %d',
                          len(voivodeship_list))
         except Exception as e:
             logging.error('Error while parsing voivodeships file')
