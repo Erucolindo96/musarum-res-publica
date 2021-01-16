@@ -1,6 +1,8 @@
 import sqlite3
-from typing import List, Set
 import logging
+import re
+from typing import List, Set
+from os import path
 
 
 class RawInterpellation:
@@ -8,6 +10,16 @@ class RawInterpellation:
         self.authors_ = authors
         self.date_ = date.replace('\r\n', '').replace('\n', '')
         self.content_ = content.replace('\r\n', '').replace('\n', '')
+
+
+def to_sqlite_date(raw_date: str):
+    match = re.search(r'(\d\d)-(\d\d)-(\d\d\d\d)', raw_date)
+    if match is None:
+        raise Exception(f'Could not parse interpellation date: {raw_date}')
+    day = match.group(1)
+    month = match.group(2)
+    year = match.group(3)
+    return f'{year}-{month}-{day}'
 
 
 class InterpellationLoader:
@@ -21,8 +33,8 @@ class InterpellationLoader:
         deputies = None
         try:
             interpellations, deputies = self.__parse_file()
-            logging.info('Interpellations parsed. Interpellations count: %d, deputies count: %d',
-                         len(interpellations), len(deputies))
+            logging.info('Interpellations from file %s parsed. Interpellations count: %d, deputies count: %d',
+                         path.basename(self.interpellation_file_), len(interpellations), len(deputies))
         except Exception as e:
             logging.error('Error while parsing interpellation file')
             logging.debug(e, exc_info=True)
@@ -71,7 +83,7 @@ class InterpellationLoader:
 
             for inter in interpellations:
                 cur.execute('INSERT INTO interpellation(date, content) VALUES(?,?)',
-                            (inter.date_, inter.content_))
+                            (to_sqlite_date(inter.date_), inter.content_))
                 inter_id = cur.lastrowid
                 for inter_deputy in inter.authors_:
                     cur.execute('INSERT INTO deputy_interpellation(deputy_id, interpellation_id) VALUES(?,?)',

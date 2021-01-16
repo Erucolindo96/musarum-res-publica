@@ -1,6 +1,7 @@
 import csv
 import logging
 import sqlite3
+from os import path
 from typing import List
 
 
@@ -21,7 +22,7 @@ class ElectionDistrictsLoader:
         try:
             self.districts_ = self.__parse_districts()
             logging.info('Election districts from file %s parsed. Election districts count: %d',
-                         self.districts_file_path_, len(self.districts_))
+                         path.basename(self.districts_file_path_), len(self.districts_))
         except Exception as e:
             logging.error('Error while parsing districts file: %s', self.districts_file_path_)
             logging.debug(e, exc_info=True)
