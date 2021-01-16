@@ -2,6 +2,7 @@ import csv
 import logging
 import sqlite3
 from typing import List
+from os import path
 
 
 class RawCounty:
@@ -22,8 +23,8 @@ class CountyLoader:
         county_list = None
         try:
             county_list = self.__parse_counties()
-            logging.info('Counties parsed. Counties count: %d',
-                         len(county_list))
+            logging.info('Counties from file %s parsed. Counties count: %d',
+                         path.basename(self.county_file_path_), len(county_list))
         except Exception as e:
             logging.error('Error while parsing county file')
             logging.debug(e, exc_info=True)

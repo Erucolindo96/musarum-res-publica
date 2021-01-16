@@ -1,6 +1,7 @@
 import sqlite3
 from typing import List, Set
 import logging
+from os import path
 
 
 class RawInterpellation:
@@ -21,8 +22,8 @@ class InterpellationLoader:
         deputies = None
         try:
             interpellations, deputies = self.__parse_file()
-            logging.info('Interpellations parsed. Interpellations count: %d, deputies count: %d',
-                         len(interpellations), len(deputies))
+            logging.info('Interpellations from file %s parsed. Interpellations count: %d, deputies count: %d',
+                         path.basename(self.interpellation_file_), len(interpellations), len(deputies))
         except Exception as e:
             logging.error('Error while parsing interpellation file')
             logging.debug(e, exc_info=True)

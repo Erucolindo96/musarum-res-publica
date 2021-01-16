@@ -2,6 +2,7 @@ import csv
 import logging
 import sqlite3
 from typing import List
+from os import path
 
 
 class RawSettle:
@@ -20,7 +21,8 @@ class SettleLoader:
         settles_list = None
         try:
             settles_list = self.__parse_settles()
-            logging.info('Settles from file %s parsed. Settles count: %d', self.settle_file_path_, len(settles_list))
+            logging.info('Settles from file %s parsed. Settles count: %d', path.basename(self.settle_file_path_),
+                         len(settles_list))
         except Exception as e:
             logging.error('Error while parsing settle file: %s', self.settle_file_path_)
             logging.debug(e, exc_info=True)

@@ -2,6 +2,7 @@ import csv
 import logging
 import sqlite3
 from typing import List
+from os import path
 
 
 class RawVoivodeship:
@@ -19,8 +20,8 @@ class VoivodeshipLoader:
         voivodeship_list = None
         try:
             voivodeship_list = self.__parse_voivodeships()
-            logging.info('Voivodeships parsed. Voivodeships count: %d',
-                         len(voivodeship_list))
+            logging.info('Voivodeships from file %s parsed. Voivodeships count: %d',
+                         path.basename(self.voivodeship_file_path_), len(voivodeship_list))
         except Exception as e:
             logging.error('Error while parsing voivodeships file')
             logging.debug(e, exc_info=True)
