@@ -1,7 +1,9 @@
 CREATE TABLE IF NOT EXISTS deputy(
    id INTEGER PRIMARY KEY AUTOINCREMENT,
    name TEXT NOT NULL UNIQUE,
-   party TEXT
+   party TEXT,
+   district_number INTEGER,
+   FOREIGN KEY(district_number) REFERENCES election_district(district_number)
 );
 
 CREATE TABLE IF NOT EXISTS interpellation(

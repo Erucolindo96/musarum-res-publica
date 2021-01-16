@@ -33,6 +33,10 @@ election_districts = {
     'path': path.join(root_dir, 'data/okregi_wyborcze.csv')
 }
 
+deputy = {
+    'path': path.join(root_dir, 'data/poslowie.json')
+}
+
 
 def create_config():
     logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logs['level'])
