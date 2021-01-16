@@ -4588,6 +4588,19 @@
   },
   {
     "active": true,
+    "club": "PO",
+    "discritNum": 27,
+    "districtName": "Bielsko-Biała",
+    "firstLastName": "Aleksandra Trybuś",
+    "firstName": "Aleksandra",
+    "id": 405,
+    "lastFirstName": "Trybuś Aleksandra",
+    "lastName": "Trybuś",
+    "secondName": "Barbara",
+    "voivodeship": "śląskie"
+  },
+  {
+    "active": true,
     "club": "SLD",
     "discritNum": 28,
     "districtName": "Częstochowa",
