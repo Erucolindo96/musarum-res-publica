@@ -23,3 +23,9 @@ join interpellation as i on di.interpellation_id=i.id
 group by i.id
 order by date(i."date") desc
 limit 10
+
+-- Find given deputy interpellations
+select i.id, i."date", d.name, i.content from deputy_interpellation as di
+join deputy as d on di.deputy_id=d.id
+join interpellation as i on di.interpellation_id=i.id
+where d.name LIKE '%Święczkowski'
