@@ -8,8 +8,8 @@ from os import path
 class RawInterpellation:
     def __init__(self, authors: List[str], date: str, content):
         self.authors_ = authors
-        self.date_ = date.replace('\r\n', '').replace('\n', '')
-        self.content_ = content.replace('\r\n', '').replace('\n', '')
+        self.date_ = date.replace('\r\n', ' ').replace('\n', ' ')
+        self.content_ = content.replace('\r\n', ' ').replace('\n', ' ')
 
 
 def to_sqlite_date(raw_date: str):
