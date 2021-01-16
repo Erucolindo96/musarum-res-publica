@@ -12,7 +12,7 @@ def main_func():
     # load interpellations and deputies
     loader = InterpellationLoader(
         database_path=config.database['path'],
-        parsed_interpellation_file=config.interpellations['file_path'])
+        parsed_interpellation_file=config.interpellations['path'])
     loader.load_to_database()
 
     # load election districts

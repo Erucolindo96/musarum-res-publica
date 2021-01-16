@@ -8,7 +8,7 @@ database = {
     'path': path.join(root_dir, 'data/senatores.db')
 }
 interpellations = {
-    'file_path': path.join(root_dir, 'data/interpelacje-processed.csv')
+    'path': path.join(root_dir, 'data/interpelacje-processed.csv')
 }
 logs = {
     'level': logging.DEBUG
