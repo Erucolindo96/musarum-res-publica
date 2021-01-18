@@ -38,5 +38,5 @@ select a.id, a.name, p.interpellations_count as patriotic_interpellations, a.int
 printf("%.2f", (p.interpellations_count*1.0/a.interpellations_count)) as patriotic_to_all
 from deputy_all_interpellations_count as a
 join deputy_patriotic_interpellations_count as p on p.id=a.id
-where a.interpellations_count > 10
+where a.interpellations_count >= 10
 order by patriotic_to_all desc
