@@ -1,8 +1,8 @@
 import logging
 
-from InterpellationRegionSolver import InterpellationRegionSolver
-from InterpellationTextProcessor import InterpellationTextProcessor
 from src import config
+from src.InterpellationRegionSolver import InterpellationRegionSolver
+from src.InterpellationTextProcessor import InterpellationTextProcessor
 from src.ElectionDistrictsLoader import ElectionDistrictsLoader
 from src.InterpellationLoader import InterpellationLoader
 from src.DeputyDetailsLoader import DeputyDetailsLoader
