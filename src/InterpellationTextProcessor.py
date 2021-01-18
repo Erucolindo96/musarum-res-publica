@@ -1,3 +1,4 @@
+import logging
 import re
 import sqlite3
 import string
@@ -10,15 +11,23 @@ class InterpellationTextProcessor:
     POLISH_LETTERS = 'aąbcćdeęfghijklłmnńoópqrsśtuvwxyzźż' \
                      'AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻ'
 
-    def __init__(self, database_path: str):
+    def __init__(self, database_path: str, stopwords_file_path: str):
         self.database_path_ = database_path
         self.morfeusz_instance = morfeusz2.Morfeusz(praet='composite')
+        self.stopwords_ = []
+
+        with open(stopwords_file_path, mode='r') as stopwords_file:
+            self.stopwords_ = stopwords_file.readlines()
+            self.stopwords_ = [word.replace('\r\n', '').replace('\n', '') for word in self.stopwords_]
 
     def process_interpellation_content(self):
+        logging.info('Perform process interpellations to find proper names and lemmatize them')
+
         with sqlite3.connect(self.database_path_) as database:
             cur = database.cursor()
             cur.execute('SELECT id, content FROM interpellation')
 
+            interpellations_checked = 0
             interpellations = cur.fetchall()
             for inter in interpellations:
                 (id, content) = (inter[0], inter[1])
@@ -29,6 +38,11 @@ class InterpellationTextProcessor:
 
                 processed_content = ','.join(lemmas)
                 cur.execute('UPDATE interpellation SET processed_content=? WHERE id = ?', (processed_content, id))
+
+                interpellations_checked += 1
+                # print debug info
+                if interpellations_checked % 1000 == 0:
+                    logging.info('%d interpellations checked.', interpellations_checked)
             database.commit()
 
     def find_proper_names(self, content: str) -> List[str]:
@@ -46,8 +60,14 @@ class InterpellationTextProcessor:
 
             i += 1
 
+        # remove endinge sencence characters
         for char in InterpellationTextProcessor.CHARS_ENDING_SENTENCE:
             proper_names = [name.replace(char, '') for name in proper_names]
+
+        # FIXME add removing proper names which contains stopwords
+        # remove proper names having stopwords
+        # for stopword in self.stopwords_:
+        #     proper_names = [name for name in proper_names if not stopword.lower() in name.lower()]
 
         return proper_names
 

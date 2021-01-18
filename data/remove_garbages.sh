@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-dir=settles
+dir=$1
 
 cd $dir
 for file in ./*.csv

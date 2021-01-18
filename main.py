@@ -1,3 +1,6 @@
+import logging
+
+from InterpellationRegionSolver import InterpellationRegionSolver
 from InterpellationTextProcessor import InterpellationTextProcessor
 from src import config
 from src.ElectionDistrictsLoader import ElectionDistrictsLoader
@@ -9,7 +12,7 @@ from src.SettleLoader import SettleLoader
 
 
 def main_func():
-    print('Salve Mundo!')
+    logging.info('Salve Mundo!')
 
     # load interpellations and deputies
     loader = InterpellationLoader(
@@ -43,8 +46,16 @@ def main_func():
         settle_parser = SettleLoader(database_file=config.database['path'], settle_file_path=settle_path)
         settle_parser.load_to_database()
 
-    interpellation_processor = InterpellationTextProcessor(database_path=config.database['path'])
+    # find proper names and lemmatize them
+    interpellation_processor = InterpellationTextProcessor(database_path=config.database['path'],
+                                                           stopwords_file_path=config.interpellations['stopwords_path'])
     interpellation_processor.process_interpellation_content()
+
+    # find correlations between interpellations and settles
+    interpellation_correlator = InterpellationRegionSolver(database_path=config.database['path'])
+    interpellation_correlator.perform_settle_correlation()
+
+    logging.info('All done!')
 
 
 if __name__ == '__main__':

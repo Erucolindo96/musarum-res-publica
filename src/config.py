@@ -9,7 +9,8 @@ database = {
 }
 interpellations = {
     'path': path.join(root_dir, 'data/interpelacje-processed.csv'),
-    'batch_size': 10
+    'batch_size': 10,
+    'stopwords_path': path.join(root_dir, 'data/polish-stopwords.txt')
 }
 logs = {
     'level': logging.DEBUG
@@ -24,7 +25,7 @@ county = {
 }
 
 settles = {
-    'dir_path': path.join(root_dir, 'data/settles'),
+    'dir_path': path.join(root_dir, 'data/miasta'),
     'files': ['dolnoslaskie.csv', 'krakowskie.csv', 'kujawskie.csv', 'lubelskie.csv', 'lubuskie.csv', 'ludzkie.csv',
               'mazowieckie.csv', 'opolskie.csv', 'podkarpackie.csv', 'podlaskie.csv', 'pomorskie.csv', 'slaskie.csv',
               'swiatokrzyskie.csv', 'vorpommern.csv', 'warminskie.csv', 'wielkopanskie.csv']
