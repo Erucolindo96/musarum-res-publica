@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS interpellation(
    id INTEGER PRIMARY KEY AUTOINCREMENT,
    date TEXT,
    content TEXT,
-   parsed_content TEXT
+   processed_content TEXT
 );
 
 CREATE TABLE IF NOT EXISTS deputy_interpellation(
