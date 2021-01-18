@@ -1,3 +1,21 @@
+-- How many settles are mentioned by each interpellation?
+select interpellation_id, count(*) as mentions_count from interpellation_settles
+group by interpellation_id
+order by mentions_count desc
+
+-- What settles are mentioned by each interpellation?
+select i_s.interpellation_id, count(*) as mentions_count, group_concat(s.name, ', ') from interpellation_settles as i_s
+join settle as s on s.id=i_s.settle_id
+group by i_s.interpellation_id
+order by i_s.interpellation_id
+
+-- What is the most mentioned settle?
+select s.name, count(*) as interpellations_count from interpellation_settles as i_s
+join settle as s on s.id=i_s.settle_id
+group by settle_id
+order by interpellations_count desc
+
+
 -- How many interpellations a given deputy made?
 -- Deputy -- Interpellations count
 select d.name, count(d_i.interpellation_id) as interpellations_count from deputy_interpellation as d_i
