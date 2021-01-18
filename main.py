@@ -43,8 +43,7 @@ def main_func():
         settle_parser = SettleLoader(database_file=config.database['path'], settle_file_path=settle_path)
         settle_parser.load_to_database()
 
-    interpellation_processor = InterpellationTextProcessor(database_path=config.database['path'],
-                                                           interpellation_batch=config.interpellations['batch_size'])
+    interpellation_processor = InterpellationTextProcessor(database_path=config.database['path'])
     interpellation_processor.process_interpellation_content()
 
 

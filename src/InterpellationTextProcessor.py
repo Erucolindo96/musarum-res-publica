@@ -10,41 +10,36 @@ class InterpellationTextProcessor:
     POLISH_LETTERS = 'aąbcćdeęfghijklłmnńoópqrsśtuvwxyzźż' \
                      'AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻ'
 
-    def __init__(self, database_path: str, interpellation_batch: int):
+    def __init__(self, database_path: str):
         self.database_path_ = database_path
-        self.interpellation_batch_ = interpellation_batch
+        self.morfeusz_instance = morfeusz2.Morfeusz(praet='composite')
 
     def process_interpellation_content(self):
         with sqlite3.connect(self.database_path_) as database:
             cur = database.cursor()
             cur.execute('SELECT id, content FROM interpellation')
 
-            has_next_row = True
-            while has_next_row:
-                interpellations = cur.fetchmany(self.interpellation_batch_)
-                for inter in interpellations:
-                    (id, content) = (inter[0], inter[1])
+            interpellations = cur.fetchall()
+            for inter in interpellations:
+                (id, content) = (inter[0], inter[1])
 
-                    proper_names = InterpellationTextProcessor.find_proper_names(content)
-                    proper_names = InterpellationTextProcessor.omit_interpellation_greetings(proper_names)
-                    lemmas = InterpellationTextProcessor.to_lemmas(proper_names)
+                proper_names = self.find_proper_names(content)
+                proper_names = self.omit_interpellation_greetings(proper_names)
+                lemmas = self.to_lemmas(proper_names)
 
-                    processed_content = ','.join(lemmas)
-                    cur.execute('UPDATE interpellation SET processed_content=? WHERE id = ?', (processed_content, id))
-
-                has_next_row = bool(interpellations)
+                processed_content = ','.join(lemmas)
+                cur.execute('UPDATE interpellation SET processed_content=? WHERE id = ?', (processed_content, id))
             database.commit()
 
-    @staticmethod
-    def find_proper_names(content: str) -> List[str]:
+    def find_proper_names(self, content: str) -> List[str]:
         words = content.split(' ')
-        words = InterpellationTextProcessor.clean_words(words)
+        words = self.clean_words(words)
 
         proper_names = []
         i = 0
 
         while i < len(words):
-            upper_case = InterpellationTextProcessor.return_uppercase_phrase(words, i)
+            upper_case = self.return_uppercase_phrase(words, i)
             if upper_case:
                 i += len(upper_case) - 1  # change iterator on next after upper case phrase
                 proper_names.append(' '.join(upper_case))
@@ -56,13 +51,11 @@ class InterpellationTextProcessor:
 
         return proper_names
 
-    @staticmethod
-    def omit_interpellation_greetings(proper_names: List[str]):
+    def omit_interpellation_greetings(self, proper_names: List[str]):
         # 3 last phrases are greetings to receiver: "z powazaniem", "Andrzej Górski", "Warszawa" - should be omit
         return proper_names[0:-3]
 
-    @staticmethod
-    def clean_words(words: List[str]) -> List[str]:
+    def clean_words(self, words: List[str]) -> List[str]:
         # remove all not literal and dot spaces
         cleaned_words = []
 
@@ -77,8 +70,7 @@ class InterpellationTextProcessor:
     Break getting upper case words when find dot at end of word
     '''
 
-    @staticmethod
-    def return_uppercase_phrase(words: List[str], i) -> List[str]:
+    def return_uppercase_phrase(self, words: List[str], i) -> List[str]:
         upper_case_words = []
         word = words[i] if i < len(words) else None
 
@@ -88,21 +80,17 @@ class InterpellationTextProcessor:
             next_upper_cases = None
             # last char is '.,?!\n\r' -> have end of sentence -> end of proper_names
             if not word[-1:] in InterpellationTextProcessor.CHARS_ENDING_SENTENCE:
-                next_upper_cases = InterpellationTextProcessor.return_uppercase_phrase(words, i + 1)
+                next_upper_cases = self.return_uppercase_phrase(words, i + 1)
             if next_upper_cases:
                 upper_case_words.extend(next_upper_cases)
 
         return upper_case_words
 
-
-    @staticmethod
-    def to_lemmas(words: List[str]) -> List[str]:
+    def to_lemmas(self, words: List[str]) -> List[str]:
         lemmas = []
-        morf = morfeusz2.Morfeusz(praet='composite')
-
         for phrase in words:
 
-            analysis = morf.analyse(phrase)
+            analysis = self.morfeusz_instance.analyse(phrase)
             lemmatized_phrase = []
             words_in_phrase = len(phrase.split(' '))
 
