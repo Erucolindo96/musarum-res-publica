@@ -30,7 +30,7 @@ select * from party_patriotic_interpellations_count
 
 -- Party name - Patriotic interpellations percentage
 select a.party, p.interpellations_count as patriotic_interpellations, a.interpellations_count as all_interpellations,
-printf("%.2f", (p.interpellations_count*1.0/a.interpellations_count)) as patriotic_to_all
+printf("%.3f", (p.interpellations_count*1.0/a.interpellations_count)) as patriotic_to_all
 from party_all_interpellations_count as a
 join party_patriotic_interpellations_count as p on p.party=a.party
 order by patriotic_to_all desc

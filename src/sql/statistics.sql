@@ -57,8 +57,8 @@ where c.district_number=d.district_number
 group by d.id, i_s.interpellation_id
 
 -- Deputy - Deputy district - Election district - Interpellations count
-select name, count(*) as interpellations_count from (
-    select d.name, i_s.interpellation_id
+select name, party, count(*) as interpellations_count from (
+    select d.name, d.party, i_s.interpellation_id
     from interpellation_settles as i_s
     join settle as s on i_s.settle_id=s.id
     join county as c on c.id=s.county_id and c.voivodeship_id=s.voivodeship_id
@@ -69,4 +69,5 @@ select name, count(*) as interpellations_count from (
 )
 group by name
 order by interpellations_count desc
+limit 10
 

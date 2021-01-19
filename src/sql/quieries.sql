@@ -28,4 +28,4 @@ limit 10
 select i.id, i."date", d.name, i.content from deputy_interpellation as di
 join deputy as d on di.deputy_id=d.id
 join interpellation as i on di.interpellation_id=i.id
-where d.name LIKE '%Święczkowski'
+where d.name LIKE '%Rozenek'
