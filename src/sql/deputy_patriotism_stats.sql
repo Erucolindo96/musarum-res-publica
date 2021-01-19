@@ -42,3 +42,12 @@ join deputy_patriotic_interpellations_count as p on p.id=a.id
 where a.interpellations_count >= 10
 order by patriotic_to_all desc
 limit 10
+
+-- Deputy id - Deputy name - Patriotic interpellations percentage (at least 10 interpellations, worst first)
+select a.name, a.party, p.interpellations_count as patriotic_interpellations, a.interpellations_count as all_interpellations,
+printf("%.3f", (p.interpellations_count*1.0/a.interpellations_count)) as patriotic_to_all
+from deputy_all_interpellations_count as a
+join deputy_patriotic_interpellations_count as p on p.id=a.id
+where a.interpellations_count >= 10
+order by patriotic_to_all asc
+limit 10
